@@ -1,0 +1,88 @@
+header {
+    background:black;
+    padding:10px;
+    color:white;
+    text-align: center;
+
+}
+header nav ul {
+    list-style: none;
+    padding:0;
+ 
+}
+header nav ul li{
+    display: inline;
+    margin: 20px;
+}
+header nav ul li a{
+    color:white;
+    text-decoration: dotted;
+}
+
+
+
+
+ .hero  {
+
+    background: url(./image2.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.read-more  {
+    color:white;
+    background:black;
+    padding:10px;
+    text-decoration: double;
+
+}
+.services {
+    text-align: center;
+    padding: 20px ;
+}
+.services{
+    display:inline-block;
+    width:30;
+    margin:15px;
+}
+.icon {
+    font-size: 50px;
+}
+.team {
+        background-color: #000000;
+        color:white;
+        text-align: center;
+        text-align: justify;
+        padding: 20px;
+   
+
+
+}
+.clients {
+    text-align: center;
+    padding: 15px;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin: 10px;
+    font-size: 20px;
+}
+.contact input,
+.contact textarea {
+    margin: 5px 0;
+    padding: 10px;
+    width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
